@@ -1,6 +1,6 @@
 import math
 
-from Task3 import SquareGenerator
+from square_generator.square_generator import SquareGenerator
 
 sqr_lsit = SquareGenerator.generate_squares(1, 10)
 print(sqr_lsit)
